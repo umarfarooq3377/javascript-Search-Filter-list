@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.user-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.user-input::placeholder {
+  color: rgb(194, 193, 193);
+}
+
+.user-input:focus {
+  outline: 2px solid #eee;
+}
+
+.fruit-list {
+  list-style: none;
+}
+
+.fruit-list a:link,
+.fruit-list a:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #f6f6f6;
+  color: black;
+  border: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+}
+
+.fruit-list a:hover {
+  background-color: #eee;
+}
